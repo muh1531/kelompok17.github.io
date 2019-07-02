@@ -1,107 +1,111 @@
-      <nav class="navbar navbar-expand-md bg-dark navbar-dark mainnav">
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <br>
-            <ul class="navbar-nav  mx-auto">
+<nav class="navbar navbar-expand-md navbar-dark mainnav fixed-top">
+   <!-- hamburger button -->
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hamburger"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+   </button>
+   <!-- end hamburgerbutton -->
 
-               <a class="navbar-brand d-lg-none d-md-none" href="">PBI</a>
+   <div class="collapse navbar-collapse" id="hamburger">
+      <br>
+      <ul class="navbar-nav  mx-auto">
 
-               <li class="nav-item">
-                  <a class="nav-link text-light" href="./index.html">Home <span class="sr-only">(current)</span></a>
-               </li>
-               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
-                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                     Media
-                  </a>
-                  <div class="dropdown-menu mainnav text-light" aria-labelledby="navbarDropdown">
-                     <a class="dropdown-item text-light" href="./news.html">News</a>
-                     <a class="dropdown-item text-light" href="./gallery.html">Gallery</a>
-                  </div>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link text-light" href="./guest.html">Guest</a>
-               </li>
-               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
-                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                     Competition
-                  </a>
-                  <div class="dropdown-menu mainnav " aria-labelledby="navbarDropdown">
-                     <a class="dropdown-item text-light" href="detail-compt.html">Competition</a>
-                     <div class="dropdown-divider"></div>
-                     <a class="dropdown-item text-light" href="detail-compt.html">Competition</a>
-                     <div class="dropdown-divider"></div>
-                     <a class="dropdown-item text-light" href="detail-compt.html">Competition</a>
-                     <div class="dropdown-divider"></div>
-                     <a class="dropdown-item text-light" href="detail-compt.html">Competition</a>
-                     <div class="dropdown-divider"></div>
-                     <a class="dropdown-item text-light" href="detail-compt.html">Lomba Lagu Daerah</a>
-                     <div class="dropdown-divider"></div>
-                     <a class="dropdown-item text-light" href="detail-compt.html">Competition</a>
-                     <div class="dropdown-divider"></div>
-                     <a class="dropdown-item text-light" href="detail-compt.html">Competition</a>
-                     <div class="dropdown-divider"></div>
-                     <a class="dropdown-item text-light" href="detail-compt.html">Competition</a>
-                  </div>
-               </li>
-               <div class="d-none d-lg-block">
-                  <li class="navbar-brand">
-                     <img src="./assets/img/galeri/logo.png" alt="">
-                  </li>
-               </div>
-               <li class="nav-item">
-                  <a class="nav-link text-light" href="./talkshow.html">Talkshow</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link text-light" href="./guide.html">Guide</a>
-               </li>
-               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
-                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                     Join Us
-                  </a>
-                  <div class="dropdown-menu mainnav text-light" aria-labelledby="navbarDropdown">
-                     <a class="dropdown-item text-light" href="./open-performer.html">Open Performer</a>
-                     <a class="dropdown-item text-light" href="./open-tenant.html">Open Tenant</a>
-                  </div>
-               </li>
-               <li class="nav-item" style="margin-left: 10px;">
-                  <!-- Button trigger modal -->
-                  <button type="button" style="height: 60px;" class="btn btn-primary" data-toggle="modal"
-                     data-target="#exampleModal">
-                     <div class="d-none d-lg-block d-md-block">
-                        <i class="fa fa-search"></i>
-                     </div>
+         <a class="navbar-brand d-lg-none d-md-none" href="">PBI</a>
 
-                     <div class=" d-lg-none d-md-none">
-                        Search <i class="fa fa-search"></i>
-                     </div>
-                  </button>
+         <li class="nav-item">
+            <a class="nav-link text-light" href="./index.html">Home <span class="sr-only">(current)</span></a>
+         </li>
 
-                  <!-- Modal -->
-                  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                     aria-labelledby="exampleModalLabel" aria-hidden="true">
-                     <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                           <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                 <span aria-hidden="true">&times;</span>
-                              </button>
-                           </div>
-                           <div class="modal-body">
-                              <input class="form-control" type="text" placeholder="search" id="search">
-                           </div>
-                           <div class="modal-footer">
-                              <button type="button" class="btn btn-primary" data-dismiss="modal">search</button>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </li>
-            </ul>
+         <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMedia" role="button"
+               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Media
+            </a>
+            <div class="dropdown-menu mainnav text-light" aria-labelledby="navbarDropdownMedia">
+               <a class="dropdown-item text-light" href="./news.html">News</a>
+               <a class="dropdown-item text-light" href="./gallery.html">Gallery</a>
+            </div>
+         </li>
+
+         <li class="nav-item">
+            <a class="nav-link text-light" href="./guest.html">Guest</a>
+         </li>
+
+         <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownCompetition" role="button"
+               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Competition
+            </a>
+            <div class="dropdown-menu mainnav " aria-labelledby="navbarDropdownCompetition">
+               <a class="dropdown-item text-light" href="detail-compt.html">Competition</a>
+               <div class="dropdown-divider"></div>
+               <a class="dropdown-item text-light" href="detail-compt.html">Competition</a>
+               <div class="dropdown-divider"></div>
+               <a class="dropdown-item text-light" href="detail-compt.html">Lomba Lagu Daerah</a>
+            </div>
+         </li>
+
+         <div class="d-none d-lg-block">
+            <li class="navbar-brand">
+               <img src="./assets/img/galeri/logo.png" alt="">
+            </li>
          </div>
-      </nav>
+
+         <li class="nav-item">
+            <a class="nav-link text-light" href="./talkshow.html">Talkshow</a>
+         </li>
+
+         <li class="nav-item">
+            <a class="nav-link text-light" href="./guide.html">Guide</a>
+         </li>
+
+         <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownJoinUS" role="button"
+               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Join Us
+            </a>
+            <div class="dropdown-menu mainnav text-light" aria-labelledby="navbarDropdownJoinUS">
+               <a class="dropdown-item text-light" href="./open-performer.html">Open Performer</a>
+               <a class="dropdown-item text-light" href="./open-tenant.html">Open Tenant</a>
+            </div>
+         </li>
+
+         <!-- search btn -->
+         <li class="nav-item" style="margin-left: 10px;">
+            <!-- Button trigger modal -->
+            <button type="button" style="height: 60px;" class="btn btn-primary" data-toggle="modal"
+               data-target="#searchModal">
+               <div class="d-none d-lg-block d-md-block">
+                  <i class="fa fa-search"></i>
+               </div>
+
+               <div class=" d-lg-none d-md-none">
+                  Search <i class="fa fa-search"></i>
+               </div>
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel"
+               aria-hidden="true">
+               <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <h5 class="modal-title" id="searchModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                           <span aria-hidden="true">&times;</span>
+                        </button>
+                     </div>
+                     <div class="modal-body">
+                        <input class="form-control" type="text" placeholder="search" id="search">
+                     </div>
+                     <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">search</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </li>
+
+      </ul>
+   </div>
+</nav>

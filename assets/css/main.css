@@ -2,38 +2,40 @@ body {
 	background-color: #79cab6;
 }
 
-.bg-grey,
-.text-gery {
+.bg-grey {
 	background-color: #6d6d6a;
+}
+.text-gery {
 	color: #6d6d6a;
 }
 
-.bg-green,
-.text-green {
+.bg-green {
 	background-color: #79a9ab;
+}
+.text-green {
 	color: #79a9ab;
 }
 
-.bg-blue,
+.bg-blue {
+	background-color: #4da9c0;
+}
 .text-blue {
-	background-color: #79cab6;
 	color: #79cab6;
 }
 
-.bg-bronze,
-.text-bronze {
+.bg-bronze {
 	background-color: #d8be91;
+}
+.text-bronze {
 	color: #d8be91;
 }
 
-.bg-sfpink,
-.text-sfpink {
+.bg-sfpink {
 	background-color: #f7eecb;
+}
+.text-sfpink {
 	color: #f7eecb;
 }
-
-
-
 
 .mainnav {
 	background: #044731;
@@ -51,29 +53,46 @@ body {
 	height: 100vh;
 	max-height: 280px;
 	background-color: #065e41;
-	background-size: cover;
 	background-position: center;
 	font-family: 'Fira Sans', sans-serif;
+	margin-top: 50px;
 }
 
-li>img {
+li > img {
 	height: 45px;
 	width: 77px;
 	margin: 0 25px 0 25px;
 }
 
-li>a {
+li > a {
 	font-size: 22px;
 	margin: 0 10px 0 10px;
 }
 
 section {
-	min-height: 400px;
+	min-height: 450px;
+	width: 100%;
 }
 
-.about p {
+/* index style teaser */
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 10px;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/* end index style teaser */
+
+.text-content {
 	font-family: 'Rubik', sans-serif;
-	text-indent: 33px;
+	font-size: 18;
 }
 
 /* #head-compt {
@@ -120,8 +139,8 @@ section {
 }
 
 #dpanel img {
-	height: 50px;
-	width: 80px;
+	height: 100px;
+	width: 70px;
 	margin: 20px;
 }
 
@@ -147,9 +166,10 @@ section {
 }
 
 hr.line {
-	border: 3px solid #1e92af;
-	border-radius: 5px;
-	width: 100%;
+	border: 2px solid #6d6d6a;
+	border-radius: 10px;
+	width: 90%;
+	text-align: center;
 }
 
 /* css form daftar */

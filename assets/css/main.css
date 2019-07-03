@@ -5,6 +5,7 @@ body {
 .bg-grey {
 	background-color: #6d6d6a;
 }
+
 .text-gery {
 	color: #6d6d6a;
 }
@@ -12,6 +13,7 @@ body {
 .bg-green {
 	background-color: #79a9ab;
 }
+
 .text-green {
 	color: #79a9ab;
 }
@@ -19,6 +21,7 @@ body {
 .bg-blue {
 	background-color: #4da9c0;
 }
+
 .text-blue {
 	color: #79cab6;
 }
@@ -26,6 +29,7 @@ body {
 .bg-bronze {
 	background-color: #d8be91;
 }
+
 .text-bronze {
 	color: #d8be91;
 }
@@ -33,6 +37,7 @@ body {
 .bg-sfpink {
 	background-color: #f7eecb;
 }
+
 .text-sfpink {
 	color: #f7eecb;
 }
@@ -58,13 +63,13 @@ body {
 	margin-top: 50px;
 }
 
-li > img {
+li>img {
 	height: 45px;
 	width: 77px;
 	margin: 0 25px 0 25px;
 }
 
-li > a {
+li>a {
 	font-size: 22px;
 	margin: 0 10px 0 10px;
 }
@@ -77,10 +82,12 @@ section {
 /* index style teaser */
 .videoWrapper {
 	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
+	padding-bottom: 56.25%;
+	/* 16:9 */
 	padding-top: 25px;
 	height: 10px;
 }
+
 .videoWrapper iframe {
 	position: absolute;
 	top: 0;
@@ -88,6 +95,7 @@ section {
 	width: 100%;
 	height: 100%;
 }
+
 /* end index style teaser */
 
 .text-content {
@@ -130,8 +138,7 @@ section {
 }
 
 .flip-box-back {
-	background-color: #f3c163;
-
+	background-color: #6d6d6a;
 	color: white;
 	height: 190px;
 	widows: 190px;
@@ -139,8 +146,8 @@ section {
 }
 
 #dpanel img {
-	height: 100px;
-	width: 70px;
+	/* height: 100px;
+	width: 70px; */
 	margin: 20px;
 }
 
@@ -166,7 +173,7 @@ section {
 }
 
 hr.line {
-	border: 2px solid #6d6d6a;
+	border: 2px solid #9e9e8d;
 	border-radius: 10px;
 	width: 90%;
 	text-align: center;

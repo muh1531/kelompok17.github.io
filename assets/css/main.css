@@ -194,15 +194,6 @@ hr.line {
 	margin: 20px;
 }
 
-.image {
-	opacity: 1;
-	/* display: block; */
-	width: 100%px;
-	height: 100%px;
-	transition: .5s ease;
-	backface-visibility: hidden;
-}
-
 .middle {
 	transition: .5s ease;
 	opacity: 0;
